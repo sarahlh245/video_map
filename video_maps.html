@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video and Google Maps</title>
+    <style>
+        body {
+            background-color: coral;
+        }
+
+        .wrapper {
+            width: 1180px;
+            /*height: 800px;*/
+            background-color: darkorange;
+            margin: 0 auto;
+            border: 1px solid darkorange;
+        }
+
+        video {
+            width: 50%;
+            padding: 15px;
+            margin: 25px auto;
+            border: 5px solid black;
+            border-radius: 25px;
+            box-shadow: 10px 10px 5px gray;
+            box-sizing: border-box;
+            display: block;
+
+        }
+        .second-video{
+            width: 50%;
+            padding: 15px;
+            margin: 25px auto;
+            border: 5px solid black;
+            border-radius: 25px;
+            box-shadow: 10px 10px 5px gray;
+            box-sizing: border-box;
+            display: block;
+        }
+        .love-island{
+            width: 50%;
+            padding: 15px;
+            margin: 25px auto;
+            border: 5px solid black;
+            border-radius: 25px;
+            box-shadow: 10px 10px 5px gray;
+            box-sizing: border-box;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <video controls="auto">
+        <source src="close_encounter.mp4" type="video/mp4">
+    </video>
+    <div class="second-video">
+        <h2>second video from YouTube</h2>
+        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" height="315"
+                src="https://www.youtube.com/embed/vgnLVxrhxoQ"
+                width="560"></iframe>
+    </div>
+
+    <div class="second-video">
+        <h2>Google Maps</h2>
+        <iframe allowfullscreen=""
+                frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.332541219669!2d-93.22561504856755!3d44.95723497899563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32d2b80b99a39%3A0x70cd3bf6096b5bb1!2sBirchwood%20Cafe!5e0!3m2!1sen!2sus!4v1570656021792!5m2!1sen!2sus" style="border:0;" width="600"></iframe>
+    </div>
+    <div class="love-island" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xj65JgmJBYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</div><!--END OF WRAPPER -->
+
+
+
+</body>
+</html>
